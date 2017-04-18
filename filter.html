@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+        <title>正则表达式过滤标点符号、汉子、字母、数字</title>
+        <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+       
+        <style>
+        *,html,body,div,span,p{padding:0;margin:0;}
+        .mj-box{width:100%;}
+        .text-hq{padding:15px;box-sizing: border-box;}
+        .text-hq span{vertical-align: middle;}
+        .cn{height:30px;line-height: 30px;padding:0 10px;box-sizing: border-box;background:#f1f2f7;color:#898991;font-size: 14px;border-radius: 2px;}
+        .en{height:30px;line-height: 30px;background:#bdc4d4;font-size: 14px;color:#dddcea;border-radius: 2px;}
+        .mj-box span{display: inline-block;padding:0 10px;box-sizing: border-box;-moz-box-shadow: 0px 0px 1px 3px #a8aabf; /* 老的 Firefox */
+            box-shadow: 0px 0px 1px 3px #a8aabf;margin:2px;}
+        .user-input{position: fixed;bottom:0px;width:100%;}
+        #demo{height:30px;width:80%;padding:0 10px;box-sizing: border-box;float: left;}
+        #tijiao{width:20%;height:30px;box-sizing: border-box;background:#6681e4;color:#fff;border-color:#6681e4;border: none;}
+        </style>
+    </head>
+    <body style="background:#b9bdc9">
+        <div class="mj-box">
+
+            <div class="text-hq"></div>
+
+            <div style="height:50px;width:100%;"></div>
+            <div class="user-input">
+                <input type= "text"  id="demo">
+                <button id="tijiao">提交</button>
+            </div>
+           
+        </div>
+    </body>
+    <script type="text/javascript" src="filter.js"></script>
+</html>
